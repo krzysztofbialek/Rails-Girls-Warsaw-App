@@ -1,30 +1,40 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Rails Girl Warsaw • Todo</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class='todo-header'>
-      <h1>My first Todo application</h1>
-    </header>
-    <section class='todo-main'>
-        <form name="input" action="html_form_action.asp" method="get">
-          <input type="text" name="user" placeholder='Type new Todo here'>
-          <input type="submit" value="Create Todo">
-        </form>
-        <ul class='todo-list'>
-          <li>Buy Milk</li>
-          <li>Feed Cat</li>
-          <li>Water Plants</li>
-          <li>Escape Zombies</li>
-          <li>....<li>
-        </ul>
-    </section>
-    <footer class='todo-footer'>
-      Copyright 2014 • Rails Girls Warsaw 
-    </footer>
+<head>
+	<title>My Little Webapp: Coding Is Magic</title>
+	<meta charset='UTF-8' />
+	<link rel='stylesheet' href='style.css' />
+</head>
+<body>
+	<h1>My Rails Girls Diary</h1>
+	<div>
+		<h2>Submitted a Rails Girls application</h2>
+		<p>1.02.2014</p>
+		<p>Just submitted an application to a Rails Girls workshop. Can’t wait to see whether I’ll get in!</p>
+		<h2>Got in!</h2>
+		<p>15.02.2014</p>
+		<p>Received an email that my application got accepted! I’ll be at a RG workshop next week!</p>
+		<h2>The first day starts…</h2>
+		<p>22.02.2014</p>
+		<p>Today is the first day of the Rails Girls workshop. My coach is quite strange but it seems we all have Rails installed now and can start learning.</p>
+	</div>
+	<div>
+		<h1>My favourite websites</h1>
+		<ul>
+			<li><a href='http://railsgirls.com'>Rails Girls</a></li>
+			<li><a href='https://en.wikibooks.org/wiki/Ruby_Programming'>Wikibooks</a></li>
+			<li><a href='http://guides.rubyonrails.org'>Ruby on Rails Guides</a></li>
+		</ul>
+	</div>
+	<img src='http://railsgirls.com/images/rg-warsaw.png' />
 
-  </body>
+	<form action='/'>
+		<p><input name='title' type='text' placeholder='Title'></p>
+		<p><textarea name='title' placeholder='Content'></textarea></p>
+
+		<p><input type="submit" value="Create"></p>
+	</form>
+	<p><a href='#'>Back</a></p>
+</body>
 </html>
+
